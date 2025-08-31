@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motak Consulting - Performance Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #2C2C2C;
+            background-image: linear-gradient(135deg, #F5F7FA 0%, #E4E7ED 100%);
+        }
+        .text-blue-accent {
+            color: #0066FF;
+        }
+        .bg-blue-accent {
+            background-color: #0066FF;
+        }
+        .card {
+            background-color: white;
+            border-radius: 1.5rem;
+            box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .btn-shadow {
+            box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .input-shadow {
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header -->
+    <header class="container mx-auto px-4 py-6 flex justify-end">
+        <div class="flex p-1 bg-white rounded-full shadow-md">
+            <button id="lang-en-btn" class="font-semibold py-2 px-4 rounded-full transition-colors duration-300 bg-blue-accent text-white">EN</button>
+            <button id="lang-fr-btn" class="font-semibold py-2 px-4 rounded-full transition-colors duration-300 text-blue-accent">FR</button>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 pb-16 space-y-24 text-center">
+
+        <!-- Hero Section -->
+        <section class="flex flex-col items-center">
+            <div class="inline-flex items-center space-x-2 text-sm font-semibold tracking-widest uppercase mb-4 text-gray-600 bg-white bg-opacity-70 p-2 rounded-full shadow-sm">
+                <div class="w-1.5 h-1.5 bg-blue-accent rounded-full"></div>
+                <span data-en="PERFORMANCE MARKETING EXPERTS" data-fr="EXPERTS EN MARKETING DE PERFORMANCE">PERFORMANCE MARKETING EXPERTS</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4 max-w-4xl" data-en="Scale Your Brand with Paid Facebook Ads" data-fr="Développez votre marque avec des publicités Facebook payantes">Scale Your Brand with <span class="text-blue-accent">Paid Facebook Ads</span></h1>
+            <p class="text-lg text-gray-700 max-w-2xl mb-12" data-en="Transform your business growth with strategic Facebook advertising campaigns that deliver measurable results and sustainable scaling." data-fr="Transformez la croissance de votre entreprise avec des campagnes publicitaires Facebook stratégiques qui offrent des résultats mesurables et une mise à l'échelle durable.">Transform your business growth with strategic Facebook advertising campaigns that deliver measurable results and sustainable scaling.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
+                <!-- Card 1 -->
+                <div class="card p-6 flex flex-col items-center text-center">
+                    <div class="text-blue-accent mb-4">
+                        <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="20" x2="12" y2="4" />
+                            <polyline points="5 11 12 4 19 11" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2" data-en="Growth Focused" data-fr="Axé sur la croissance">Growth Focused</h3>
+                    <p class="text-sm text-gray-600" data-en="Strategies built for sustainable scaling." data-fr="Stratégies conçues pour une mise à l'échelle durable.">Strategies built for sustainable scaling.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card p-6 flex flex-col items-center text-center">
+                    <div class="text-blue-accent mb-4">
+                        <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="22" y1="12" x2="18" y2="12" />
+                            <line x1="6" y1="12" x2="2" y2="12" />
+                            <line x1="12" y1="6" x2="12" y2="2" />
+                            <line x1="12" y1="22" x2="12" y2="18" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2" data-en="Precision Targeting" data-fr="Ciblage de précision">Precision Targeting</h3>
+                    <p class="text-sm text-gray-600" data-en="Reach your ideal customers effectively." data-fr="Atteignez vos clients idéaux efficacement.">Reach your ideal customers effectively.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card p-6 flex flex-col items-center text-center">
+                    <div class="text-blue-accent mb-4">
+                        <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M13 2L3 14H12L11 22L21 10H12L13 2" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2" data-en="Fast Results" data-fr="Résultats rapides">Fast Results</h3>
+                    <p class="text-sm text-gray-600" data-en="See improvements in weeks, not months." data-fr="Constater des améliorations en semaines, pas en mois.">See improvements in weeks, not months.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Drive Success Section -->
+        <section class="flex flex-col items-center">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4" data-en="How We Drive Your Success" data-fr="Comment nous stimulons votre succès">How We Drive <span class="text-blue-accent">Your Success</span></h2>
+            <p class="text-lg text-gray-700 max-w-2xl mb-12" data-en="Our proven methodology combines data-driven insights with creative excellence to deliver Facebook ad campaigns that consistently outperform industry benchmarks." data-fr="Notre méthodologie éprouvée combine des informations basées sur les données avec une excellence créative pour offrir des campagnes publicitaires Facebook qui surpassent constamment les repères de l'industrie.">Our proven methodology combines data-driven insights with creative excellence to deliver Facebook ad campaigns that consistently outperform industry benchmarks.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-6xl">
+                <!-- Left Card (Service Benefits) -->
+                <div class="card p-8 flex flex-col text-left">
+                    <h3 class="text-2xl font-bold mb-6" data-en="Our Service Benefits" data-fr="Les avantages de notre service">Our Service Benefits</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-blue-accent mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                            </svg>
+                            <span data-en="Strategic campaign planning and execution" data-fr="Planification et exécution de campagnes stratégiques">Strategic campaign planning and execution</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-blue-accent mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                            </svg>
+                            <span data-en="Advanced audience targeting and segmentation" data-fr="Ciblage d'audience avancé et segmentation">Advanced audience targeting and segmentation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-blue-accent mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                            </svg>
+                            <span data-en="Creative testing and optimization" data-fr="Test et optimisation créatifs">Creative testing and optimization</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-blue-accent mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                            </svg>
+                            <span data-en="Performance tracking and detailed reporting" data-fr="Suivi de la performance et rapports détaillés">Performance tracking and detailed reporting</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-blue-accent mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                            </svg>
+                            <span data-en="Continuous scaling and budget optimization" data-fr="Mise à l'échelle continue et optimisation du budget">Continuous scaling and budget optimization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Card (Metrics) -->
+                <div class="card p-8 grid grid-cols-2 gap-6">
+                    <!-- Metric Card 1 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="text-blue-accent mb-2">
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="12" width="6" height="8" rx="1" />
+                                <rect x="15" y="4" width="6" height="16" rx="1" />
+                                <rect x="9" y="8" width="6" height="12" rx="1" />
+                            </svg>
+                        </div>
+                        <p class="text-3xl font-bold mb-1" data-en="3x - 4x" data-fr="3x - 4x">3x - 4x</p>
+                        <p class="text-sm text-gray-600" data-en="Average ROAS" data-fr="ROAS moyen">Average ROAS</p>
+                    </div>
+                    <!-- Metric Card 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="text-blue-accent mb-2">
+                           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L15 6L12 10L9 6L12 2Z" />
+                                <path d="M9 12L7 14L9 16L7 18" />
+                                <path d="M15 12L17 14L15 16L17 18" />
+                                <path d="M12 10L12 22" />
+                            </svg>
+                        </div>
+                        <p class="text-3xl font-bold mb-1" data-en="€100K+" data-fr="100K€+">€100K+</p>
+                        <p class="text-sm text-gray-600" data-en="In Client Revenue" data-fr="En revenus client">In Client Revenue</p>
+                    </div>
+                    <!-- Metric Card 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="text-blue-accent mb-2">
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 2v10" />
+                                <path d="M12 12l4-4" />
+                                <path d="M12 12l-4-4" />
+                                <path d="M12 12l4 4" />
+                                <path d="M12 12l-4 4" />
+                            </svg>
+                        </div>
+                        <p class="text-3xl font-bold mb-1" data-en="< €20" data-fr="< 20€">< €20</p>
+                        <p class="text-sm text-gray-600" data-en="Avg. Cost Per Purchase" data-fr="Coût moyen par achat">Avg. Cost Per Purchase</p>
+                    </div>
+                    <!-- Metric Card 4 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="text-blue-accent mb-2">
+                           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="8" cy="7" r="4" />
+                                <path d="M16 21v-2a4 4 0 00-4-4H4a4 4 0 00-4 4v2" />
+                                <path d="M17 11.5c-1.1-1.1-2.6-1.5-4-1.5s-2.9 0.4-4 1.5" />
+                                <circle cx="17" cy="7" r="3" />
+                                <path d="M22 21v-2a4 4 0 00-3-3.87" />
+                            </svg>
+                        </div>
+                        <p class="text-3xl font-bold mb-1" data-en="90%" data-fr="90%">90%</p>
+                        <p class="text-sm text-gray-600" data-en="Client Retention Rate" data-fr="Taux de rétention client">Client Retention Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Success Stories Section -->
+        <section class="flex flex-col items-center">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4" data-en="Client Success Stories" data-fr="Témoignages de clients">Client <span class="text-blue-accent">Success Stories</span></h2>
+            <p class="text-lg text-gray-700 max-w-2xl mb-12" data-en="See how we've helped businesses achieve remarkable growth through strategic Facebook advertising." data-fr="Découvrez comment nous avons aidé des entreprises à atteindre une croissance remarquable grâce à la publicité Facebook stratégique.">See how we've helped businesses achieve remarkable growth through strategic Facebook advertising.</p>
+            
+            <div class="card p-8 w-full max-w-4xl text-center">
+                <div class="flex justify-center items-center mb-4">
+                    <svg class="w-8 h-8 text-blue-accent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.5 4.5a1.5 1.5 0 011.5 1.5v4.316a.75.75 0 00.412.678L15 11.25l-2.434 1.757a.75.75 0 00-.412.678V18a1.5 1.5 0 01-1.5 1.5h-2.25a.75.75 0 01-.75-.75V6a1.5 1.5 0 011.5-1.5zM19.5 4.5a1.5 1.5 0 011.5 1.5v4.316a.75.75 0 00.412.678L24 11.25l-2.434 1.757a.75.75 0 00-.412.678V18a1.5 1.5 0 01-1.5 1.5h-2.25a.75.75 0 01-.75-.75V6a1.5 1.5 0 011.5-1.5z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="flex justify-center mb-4">
+                    <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z" /></svg>
+                    <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z" /></svg>
+                    <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z" /></svg>
+                    <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z" /></svg>
+                    <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z" /></svg>
+                </div>
+                <p class="text-xl italic text-gray-800 mb-8" data-en="Working with Motak Consulting transformed our business completely. They helped us scale our ad campaigns, taking us from a few hundred euros in sales to over €20K per month. The return on ad spend is consistently over 4x, and we couldn't be happier." data-fr="Travailler avec Motak Consulting a complètement transformé notre entreprise. Ils nous ont aidés à faire évoluer nos campagnes publicitaires, nous faisant passer de quelques centaines d'euros de ventes à plus de 20K€ par mois. Le retour sur les dépenses publicitaires est constamment supérieur à 4x, et nous ne pourrions pas être plus heureux.">"Working with Motak Consulting transformed our business completely. They helped us scale our ad campaigns, taking us from a few hundred euros in sales to over €20K per month. The return on ad spend is consistently over 4x, and we couldn't be happier."</p>
+                <div class="flex items-center justify-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-accent flex items-center justify-center text-white text-xl font-bold mr-4 shadow-sm">JM</div>
+                    <div>
+                        <p class="font-bold text-lg text-gray-800" data-en="Jasmine M." data-fr="Jasmine M.">Jasmine M.</p>
+                        <p class="text-sm text-gray-600" data-en="Founder, Aura Apparel" data-fr="Fondatrice, Aura Apparel">Founder, Aura Apparel</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl mt-12">
+                <!-- Card 1 -->
+                <div class="card p-6 flex flex-col items-center text-center">
+                    <h3 class="text-lg font-semibold mb-2" data-en="€0 to €20K+" data-fr="0€ à 20K€+">€0 to €20K+</h3>
+                    <p class="text-sm text-gray-600" data-en="Monthly Revenue Growth" data-fr="Croissance des revenus mensuels">Monthly Revenue Growth</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card p-6 flex flex-col items-center text-center">
+                    <h3 class="text-lg font-semibold mb-2" data-en="4x+" data-fr="4x+">4x+</h3>
+                    <p class="text-sm text-gray-600" data-en="Consistent ROAS" data-fr="ROAS constant">Consistent ROAS</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card p-6 flex flex-col items-center text-center">
+                    <h3 class="text-lg font-semibold mb-2" data-en="Sustainable" data-fr="Durable">Sustainable</h3>
+                    <p class="text-sm text-gray-600" data-en="Monthly Scaling" data-fr="Mise à l'échelle mensuelle">Monthly Scaling</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Conversion Form Section -->
+        <section class="flex flex-col items-center">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4" data-en="Ready to Scale Your Brand?" data-fr="Prêt à faire grandir votre marque?">Ready to Scale <span class="text-blue-accent">Your Brand</span>?</h2>
+            <p class="text-lg text-gray-700 max-w-2xl mb-12" data-en="Let's discuss your goals and create a custom Facebook advertising strategy that drives real results." data-fr="Discutons de vos objectifs et créons une stratégie publicitaire Facebook personnalisée qui génère des résultats concrets.">Let's discuss your goals and create a custom Facebook advertising strategy that drives real results.</p>
+
+            <form name="contact" method="POST" data-netlify="true" class="card p-8 w-full max-w-2xl text-left space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-2" data-en="Your Name" data-fr="Votre nom">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" class="w-full px-4 py-3 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-blue-accent focus:border-transparent transition-shadow input-shadow" data-en-placeholder="Enter your full name" data-fr-placeholder="Entrez votre nom complet">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2" data-en="Your Email" data-fr="Votre e-mail">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" class="w-full px-4 py-3 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-blue-accent focus:border-transparent transition-shadow input-shadow" data-en-placeholder="Enter your email address" data-fr-placeholder="Entrez votre adresse e-mail">
+                    </div>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700 mb-2" data-en="Your Message" data-fr="Votre message">Your Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your business and goals..." class="w-full px-4 py-3 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-blue-accent focus:border-transparent transition-shadow input-shadow" data-en-placeholder="Tell us about your business and goals..." data-fr-placeholder="Parlez-nous de votre entreprise et de vos objectifs..."></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-accent text-white font-semibold py-4 px-8 rounded-full btn-shadow transition-transform transform hover:scale-105 hover:bg-blue-700">
+                        <span class="flex items-center" data-en="Start Your Growth Journey" data-fr="Commencez votre parcours de croissance">
+                            <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                            </svg>
+                            Start Your Growth Journey
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+<script>
+    // This script handles the client-side language switching.
+    document.addEventListener("DOMContentLoaded", () => {
+        const langEnBtn = document.getElementById('lang-en-btn');
+        const langFrBtn = document.getElementById('lang-fr-btn');
+
+        // Function to update all text content on the page
+        const updateLanguage = (lang) => {
+            document.querySelectorAll('[data-en]').forEach(element => {
+                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    // Handle input/textarea placeholders
+                    element.placeholder = element.getAttribute(`data-${lang}-placeholder`);
+                } else {
+                    // Handle all other text content
+                    element.textContent = element.getAttribute(`data-${lang}`);
+                }
+            });
+
+            // Update button styles
+            if (lang === 'en') {
+                langEnBtn.classList.add('bg-blue-accent', 'text-white');
+                langEnBtn.classList.remove('bg-white', 'text-blue-accent');
+                langFrBtn.classList.add('bg-white', 'text-blue-accent');
+                langFrBtn.classList.remove('bg-blue-accent', 'text-white');
+            } else {
+                langFrBtn.classList.add('bg-blue-accent', 'text-white');
+                langFrBtn.classList.remove('bg-white', 'text-blue-accent');
+                langEnBtn.classList.add('bg-white', 'text-blue-accent');
+                langEnBtn.classList.remove('bg-blue-accent', 'text-white');
+            }
+        };
+
+        // Event listeners for the language buttons
+        langEnBtn.addEventListener('click', () => updateLanguage('en'));
+        langFrBtn.addEventListener('click', () => updateLanguage('fr'));
+
+        // Set initial state
+        updateLanguage('en');
+    });
+</script>
+</body>
+</html>
